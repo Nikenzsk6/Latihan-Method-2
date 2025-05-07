@@ -31,7 +31,7 @@ public class Latihanmethod2 {
                 hasil =0;
         }
         String txtMessage = "Hasil Operasi "+operasi+" "+bil1+" dan "+bil2
-                             +" adalah "+ Math.round(hasil);
+                             +" adalah "+ hasil;
         JOptionPane.showMessageDialog(null,txtMessage,"Hasil Operasi",JOptionPane.PLAIN_MESSAGE);
     }
     public static void main(String[] args) {
